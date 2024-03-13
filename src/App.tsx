@@ -82,7 +82,7 @@ function App() {
 
   useEffect(() => {
     getData();
-  }, [list]);
+  }, []);
 
   return (
     <div className="container">
